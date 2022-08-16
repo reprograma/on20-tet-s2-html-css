@@ -19,31 +19,36 @@ Antes de começar, vamos organizar nosso setup.
 * Digite o comando:
 
 
-```http
+```
      pwd
 ```
 * Entre no seu desktop:
-```http
+```
      cd desktop
 ```
 * Clone o fork na sua máquina: basta abrir o seu terminal e digitar:
-```http
+  
+```
      git clone url-do-seu-repositorio-forkado
 ```
 * Digite o comando  ls para encontrar o seu repositório:
-```http
+  
+```
      ls
 ```
 * Copie o nome do repositorio e entre na pasta clonada:
-```http
+  
+```
      cd on20-tet-s2-html-css
 ```
 * Crie uma branch com o seu nome:
-```http
+  
+```
      git checkout -b seu-nome
 ```
-* Digite o comando para abrir o projeto no vscode
-```http
+* Digite o comando para abrir o projeto no vscode:
+  
+```
      code .
 ```
 
@@ -99,6 +104,8 @@ O que veremos na aula de hoje?
 
 [Seletor](#seletor)
 
+    .class #id elemento atributo 
+
 [Propriedades de Estilo no CSS](#estilocss)
 
    * Dimensões de elementos (largura, altura) - (width, height)
@@ -128,7 +135,7 @@ Antes de começar a codar, você precisa criar o arquivo html:
 
 Depois, arquivo criado, você inicia com a estrutura básica:
 
-```http
+```
 
 <!DOCTYPE html>
 <html lang="en">
@@ -166,7 +173,7 @@ Aqui você ainda inclui o link para o seu css e para fontes.
 
 Dentro do body, incluimos as tags (etiquetas) que referenciam o conteúdo incluido no html. Exemplo:
 
-```http
+```
 
 <p>conteúdo</p>
      
@@ -175,7 +182,7 @@ Dentro do body, incluimos as tags (etiquetas) que referenciam o conteúdo inclui
 Algumas tags precisam ser abertas e fechadas, para que estejam certas, como no exemplo acima.
 Outras  são autocontidas, não precisando de tag de fechamento:
 
-```http
+```
 
 <img href="">
      
@@ -225,7 +232,7 @@ Para indentar, segure a linha de código e aperte **tab**.
 
 ### CSS
 
-CSS é abreviação de Cascading Style Sheet (folha de estilos em cascata). É a linguagem que define estilos para o HTML, portanto, não se trata de linguagem de programação. CSS tem "cascata" no nome, devido a sua forma de determinar a propriedade de um elemento - levando em consideração hierarquia de dos seletores. É de cima para baixo! 󠁢
+CSS é abreviação de Cascading Style Sheet (folha de estilos em cascata). É a linguagem que define estilos para o HTML, portanto, não se trata de linguagem de programação. CSS tem "cascata" no nome, devido a sua forma de determinar a propriedade de um elemento - levando em consideração hierarquia dos seletores. É de cima para baixo! 󠁢
 
 Há três formas para incluir o código CSS em um documento HTML: 
 
@@ -249,7 +256,7 @@ exista <span style="color: red">CSS em outro lugar</span>.</p>
 
 * Link externo
 
-```http
+```
 
 <!DOCTYPE html>
 <html>
@@ -280,25 +287,56 @@ p {
 /* Sou um comentário CSS */
 ```
 
-#### Classes e id
+### Seletores
+
 
 Classes e ids são atributos que podem ser inseridos em qualquer tag dentro da tag body. Eles são atributos de nomeação, sendo class muito usada para referência em CSS e id para Javascript, mas o id também pode ser utilizado no CSS quando você quer estilizar um conteúdo de html muito especifico. Uma diferença entre os dois é que podem haver várias classes com o mesmo valor, ao passo que ids devem ser únicos.
 
 
 * Classes : chamadas com ponto no CSS.
-``` http
+``` 
  <section class="titulo-principal">
 
 ```
 
 * Id : chamadas  com  hastag 
-``` http
+``` 
  <section id="imagens-centrais">
  
 ```
+
+* Elemento : chamando o elemento/tag  direto no CSS.
+  
+```
+<img>
+  
+```
+
+* Atributo: incluindo a tag +  o atributo entre parênteses : 
+  
+```
+a[href]
+  
+```
+
+#### Pseudo-classes
+   
+* Dinâmica: controlam o estado do elemento
+```
+:hover
+  
+```
+
+* Estruturais: seleciona um elemento da estrutura do código 
+  
+```
+:firs-child
+  
+```
+
 #### Principais propriedades
 
-| Propriedade CSS  |                                               |
+| Propriedades CSS  |                                               |
 | ----------------- | ---------------------------------------------------------------- |
 | background | background-imagem, backgroun-color |
 | text  | text-align, font-family, font-size, text-decoration, font-size, text-transform|
@@ -507,8 +545,9 @@ Esta tag pode receber alguns atributos específicos como o atributo method, que 
 ***
 ### Exercícios 
 
-* [Exercicio para casa](https://github.com/mflilian/repo-example/tree/main/exercicios/para-casa)
-* [Exercicio para sala](https://github.com/mflilian/repo-example/tree/main/exercicios/para-sala)
+* [Exercicio para casa](https://github.com/reprograma/on20-tet-s2-html-css/tree/main/exercicios/para-casa)
+* [Exercicio para sala](https://github.com/reprograma/on20-tet-s2-html-css/tree/main/exercicios/para-sala)
+
 
 ### Material da aula 
 
@@ -526,20 +565,21 @@ Esta tag pode receber alguns atributos específicos como o atributo method, que 
 - [Flexbox Guia Completo](https://origamid.com/projetos/flexbox-guia-completo/)
 - [Flexbox CSS Guia Completo](https://www.alura.com.br/artigos/css-guia-do-flexbox)
 
+#### Já que é para estudar...
+
+- [Seletores do CSS Pseudo Classes](https://imasters.com.br/css/seletores-do-css-pseudo-classes)
+- [Os principais atributos CSS](https://eufacoprogramas.com/os-principais-atributos-css/)
 
 
 #### Material Complementar - em Vídeo 
-- [Aulas Marco Bruno](https://www.youtube.com/watch?v=kU8oIbe5hLs&list=PLirko8T4cEmx5eBb1-9j6T6Gl4aBtZ_5x&index=10)
+- [Aulas CSS - Marco Bruno](https://www.youtube.com/watch?v=kU8oIbe5hLs&list=PLirko8T4cEmx5eBb1-9j6T6Gl4aBtZ_5x&index=10)
 - [Aula FlexBox - Rafaela Ballerini](https://www.youtube.com/watch?v=KbjLtEgmZ_E)
 - [Representando Cores em Css](https://www.youtube.com/watch?v=uKjKnztS3cY)
+- [Aprenda CSS Position em 10 minutos](https://www.youtube.com/watch?v=zPlt84S1L0U)
 
-
-#### Jogos para aprender CSS
-- [Flexbox](https://flexboxfroggy.com/)
-- [Flukeout](https://flukeout.github.io/)
 
 
 <p align="center">
-Desenvolvido com :purple_heart:  Inspirado no repositório da professora da Juliane Andrade 
+Desenvolvido com :purple_heart: 
 </p>
 

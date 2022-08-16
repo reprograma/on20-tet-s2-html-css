@@ -2,8 +2,8 @@
 
 ## Hello, world.
 
-- Explicação do exercício: Vamos criar juntas a nossa primeira página da On 20.
-Vamos utilizar todo o conteúdo aprendido na aula para fazermos uma página simples com as principais tags e estiliza-lá no CSS. 
+- Explicação do exercício: Vocês vão criar a sua primeira página da On 20.
+Utilizem todo o conteúdo aprendido na aula para fazer uma página simples com as principais tags e estiliza-lá no CSS. 
 Vamos de criatividade, colocar a mão na massa, aproveitar para errar sem medo, aprender e compartilhar os aprendizados.
 ---
 
