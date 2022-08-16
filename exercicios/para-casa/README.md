@@ -1,10 +1,11 @@
 # Exercício de Casa 🏠 
 
-## Nome do Exercicio
+## Mão na massa!
 
-- Explicação do exercício: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
+- Explicação do exercício: Finalize a página que você começou na aula, incluindo um formulário e estilize com o css.
+Veja as referências do repositório, pesquise, brinque!
+
+Na aula de quarta-feira vamos tirar as dúvidas!
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!

@@ -1,10 +1,10 @@
 # Projetinho 📓  
 
-## Nome do Projeto
+## Mulheres no mundo tech!
 
-- Explicação do projeto: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
+Explicação do exercício: Você vai criar uma página temática  sobre  mulheres no mundo da tecnologia.
+Escolha uma mulher  que atuou ou atua no mundo da tecnologia, de quem você é fã ou te inspira e crie uma página sobre ela utilizando HTML e CSS.
+Pense na estrutura que você quer criar, faça um rabiscoframe no papel, revise o conteúdo da aula, suas anotações e vá além. Pesquise, consulte a documentação e faça tudo do seu jeito!
 ---
 
 Terminou o projetinho? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!

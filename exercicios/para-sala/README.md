@@ -1,10 +1,10 @@
 # Exercício de Sala 🏫  
 
-## Nome do Exercicio
+## Hello, world.
 
-- Explicação do exercício: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
+- Explicação do exercício: Vamos criar juntas a nossa primeira página da On 20.
+Vamos utilizar todo o conteúdo aprendido na aula para fazermos uma página simples com as principais tags e estiliza-lá no CSS. 
+Vamos de criatividade, colocar a mão na massa, aproveitar para errar sem medo, aprender e compartilhar os aprendizados.
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
