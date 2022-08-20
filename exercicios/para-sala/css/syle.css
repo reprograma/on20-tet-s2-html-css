@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;    
+}
+header {
+    background-color: #6A8FA6;
+    padding: 20px;
+}
+ul {
+   list-style: none;
+}
+.logo-img{
+    width: 100px;
+}
