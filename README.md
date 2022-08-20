@@ -18,7 +18,6 @@ Antes de começar, vamos organizar nosso setup.
 * Abra o seu GitBash
 * Digite o comando:
 
-
 ```
      pwd
 ```
@@ -209,7 +208,7 @@ Outras  são autocontidas, não precisando de tag de fechamento:
 
 #### Comentários em HTML:
 
-<!-- Isso é um comentário. Comentários em qualquer linguagem são pedaços de código que são ignorados na renderização (na leitura do computador), mas são úteis para entendimento humano -->
+<!-- Isso é um comentário. Comentários em qualquer linguagem são pedaços de código que são ignorados na renderização (na leitura do computador), mas são úteis para entendimento humano. Use as teclas Crtl + K + C para comentar e Crtl + K + U para tirar o comentário -->
 
 
 #### HTML semântico
@@ -344,6 +343,27 @@ a[href]
 | cor | color|
 | decoração  | box-shadow, border|
 
+### Tamanho de fontes
+
+#### Medidas absolutas
+centimento (cm), mm(milimetro), in(polegada),  px(pixel), pt(ponto), pica (pc)
+
+#### Medidas relativas
+
+* Em: relativa ao tamanho atual  da fonte. Muda os elementos filhos, de acordo com o tamanho dos elemento-pai; 1em é 16px;
+* Ex: Altura x da fonte;
+* Rem: relativo a fonte configurada na raiz, no html e/ou body;
+* Vw: view port - largura da view port da fonte, de acordo com o dispositivo;
+* Vh: largura da view port
+
+O W3c recomenda o uso de px e em.
+
+### Tamanho de imagens 
+
+No tamanho da imagem, o valor médio de largura de 1500 e 72px de resolução sendo  uma boa opção para não pesar a sua página. Sites pesados não são indexados pelo Google, ou seja, não aparece nas buscar iniciais.
+
+O tamanho pode ser alterado em px ou porcentagem, nos atributos width e height.
+
 ### Método BEM
 
 A sigla BEM significa block, element, modifier, que são os três pilares do método BEM. É uma metodologia de criação de nomes para classes, tornando esse processo mais prático, lógico, e rápido. 
@@ -399,7 +419,7 @@ O valor do modificador é separado do nome do modificador por um único sublinha
 ####  Bloco
 
  * É único e independente
- * Não deve haver dois ou mais blocos com mesmo nome
+ * Não deve haver dois ou mais blocos com mesmo nome.
  * É o primeiro componente a ser idealizado e construído,    carregando consigo os comportamentos e estilos mais genéricos
  * O bloco pode conter elementos ou outros blocos.
 
@@ -564,6 +584,7 @@ Esta tag pode receber alguns atributos específicos como o atributo method, que 
 - [Box Sizing e Box Model](https://www.alura.com.br/artigos/entendendo-como-funciona-box-model-e-o-box-sizing)
 - [Flexbox Guia Completo](https://origamid.com/projetos/flexbox-guia-completo/)
 - [Flexbox CSS Guia Completo](https://www.alura.com.br/artigos/css-guia-do-flexbox)
+- [Guia de Unidades no CSS](https://www.alura.com.br/artigos/guia-de-unidades-no-css)
 
 #### Já que é para estudar...
 
@@ -574,7 +595,7 @@ Esta tag pode receber alguns atributos específicos como o atributo method, que 
 #### Material Complementar - em Vídeo 
 - [Aulas CSS - Marco Bruno](https://www.youtube.com/watch?v=kU8oIbe5hLs&list=PLirko8T4cEmx5eBb1-9j6T6Gl4aBtZ_5x&index=10)
 - [Aula FlexBox - Rafaela Ballerini](https://www.youtube.com/watch?v=KbjLtEgmZ_E)
-- [Representando Cores em Css](https://www.youtube.com/watch?v=uKjKnztS3cY)
+- [Representando Cores em CSS - Gustavo Guanabara](https://www.youtube.com/watch?v=uKjKnztS3cY)
 - [Aprenda CSS Position em 10 minutos](https://www.youtube.com/watch?v=zPlt84S1L0U)
 
 

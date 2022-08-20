@@ -13,6 +13,8 @@
 - [Google Fonts](https://fonts.google.com/);
 - [Flat UI Colors - paleta de cores](https://flatuicolors.com/);
 - [Coolors - paleta de cores](https://coolors.co/);
+- [Css Gradient](https://cssgradient.io/);
+- [Adobe Color](https://color.adobe.com/pt/create/color-wheel);
 - [FlatIcon - download de icones](https://www.flaticon.com/);
 - [FontAwesome - download de icones dentre outros](https://fontawesome.com/icons?d=gallery);
 - [Unsplash - site para download imagens](https://unsplash.com/);
