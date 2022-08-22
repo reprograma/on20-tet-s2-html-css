@@ -60,11 +60,11 @@ nav a:hover {
     padding-top: 3em;
 }
 
-.titulo-principal {
+.titulo-principal, .titulo-sobre {
     padding-top: 0.6em;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     font-size: 4em;
     margin: 0 0 1em;
@@ -90,4 +90,26 @@ h1 {
     padding-left: 150px;
     padding-right: 150px;
     font-size: 1.3rem;
+}
+
+.sobre {
+    background: linear-gradient(#FEFEFE, #6A8FA6);
+    padding-bottom: 40px;
+}
+
+.subtitulo-sobre {
+    text-align: center;
+    font-size: 1.3rem;
+    padding-bottom: 30px;
+}
+
+.sobre-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.sobre-conteudo img {
+    border-radius: 1rem;
+    height: 420px;
+    width: 100%;
 }
