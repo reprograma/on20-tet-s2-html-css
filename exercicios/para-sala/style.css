@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: bisque;
+    font-family: 'roboto', sans-serif
+}
+
+header {
+    background-color: #6aa8a6;
+    padding: 20px;
+}
+
+.caixa {
+    
+}
+
+.caixa-imagem {
+    width: 80px;
+}
+
+
