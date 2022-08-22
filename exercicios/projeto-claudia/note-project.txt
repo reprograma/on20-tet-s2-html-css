@@ -1,0 +1,33 @@
+Lembrando o projeto da semana:
+Mulheres no mundo tech!
+Explicação do exercício: Você vai criar uma página temática sobre mulheres no mundo da tecnologia. Escolha uma mulher que atuou ou atua no mundo da tecnologia, de quem você é fã ou te inspira e crie uma página sobre ela utilizando HTML e CSS. Pense na estrutura que você quer criar, faça um rabiscoframe no papel, revise o conteúdo da aula, suas anotações e vá além. Pesquise, consulte a documentação e faça tudo do seu jeito!
+
+Material de pesquisa:
+
+01.
+https://jornaldeitu.com.br/2022/03/10/quem-e-carol-shaw-semana-da-mulher/
+
+02.
+https://canaltech.com.br/internet/mulheres-historicas-carol-shaw-a-primeira-desenvolvedora-de-jogos-eletronicos-75877/
+
+03.
+https://pt.wikipedia.org/wiki/Carol_Shaw
+
+04.
+https://pt.wikipedia.org/wiki/River_Raid
+
+05.
+https://www.people.com.br/noticias/entretenimento/4-mulheres-que-fizeram-historia-na-industria-de-games#:~:text=A%20californiana%20Carol%20Shaw%20ficou,a%20desenvolver%20um%20jogo%20eletr%C3%B4nico.
+
+06.
+http://tex22.info/rm/R4-VEX-Student/Content/Curriculum%20-%20Robotics/Robo%204/E_STEM%20and%20U/B_STEM%20Stories/Carol%20Shaw.htm
+
+07.
+https://www.youtube.com/watch?v=K7UZukKBYdY
+
+08. Biografia Atari Women
+https://www.atariwomen.org/stories/carol-shaw/
+
+09. Vídeo Game Awards 2017 - Carol Shaw
+https://www.youtube.com/watch?v=YUSCE0QjN0c
+

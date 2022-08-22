@@ -1,0 +1,75 @@
+body {
+    padding: 5%;
+    background-color: #137547;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #fafaff;
+}
+
+p{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: larger; 
+}
+
+ul{
+    list-style-type: square;
+    color: #720e07;
+    font-size: large;
+}
+
+footer{
+    background-color: #fafafa;
+    color: #720e07;
+    box-sizing:border-box;
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+/*Classes*/
+.cabecalho img {
+    text-align: center;
+    padding: 1%;
+}
+
+.jogos img{
+    block-size: 25px;
+    padding: 0%;
+    display: inline-table;
+}
+
+.referencias{
+    text-align: left;
+    font-size: large;
+
+}
+
+/*id*/
+#fotoCarol01{
+    border-radius: 50%;
+    display:flex;
+    float: left; /*flutuar - alinha a esquerda*/
+}
+
+#citacao {
+    font-size: 45px;
+    text-align: right;
+    color: #720e07;
+    padding: 2%;
+}
+
+#jogos-colunas{
+    text-align: ;
+    list-style-type: square;
+    column-count:2;
+}
+
+#jogo01{
+    width: 45%;
+    height: auto;
+}
+
+#jogo02{
+    width: 45%;
+    height: auto;
+}
