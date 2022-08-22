@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat';
+}
+
+header {
+    display: flex;	
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #6A8FA6;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caixa img {
+    width: 110px;  
+}
+
+li {
+    margin-left: 20px;
+    color: #fffcfc;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #fffcfc;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover {
+	color: #345B73;
+	text-decoration: underline;
+}
+
+.banner {
+    width: 100%;
+}
