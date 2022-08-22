@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.banner{
+  background-image: url(../img/codigo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.banner img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.banner button{
+    text-decoration: none;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#cards{
+    display: flex;
+    width: 70%;
+    margin: auto;
+
+}
+
+.card{
+    background: rgb(146, 85, 148);
+    padding: 12px;
+    margin: 5px;
+
+}
