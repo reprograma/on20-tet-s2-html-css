@@ -13,25 +13,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-header {
-    display: flex;	
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 200px;
-    padding-right: 200px;
-    background-color: #6A8FA6;
-}
-
 ul {
     display: flex;
     justify-content: space-between;
-}
-
-.caixa img {
-    width: 110px;  
 }
 
 li {
@@ -52,16 +36,12 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-.banner {
-    width: 100%;
-}
-
-.principal {
-    padding-top: 3em;
-}
-
-.titulo-principal, .titulo-sobre {
-    padding-top: 0.6em;
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 h1, h2 {
@@ -79,6 +59,36 @@ h3 {
     color: white;   
 }
 
+/* HEADER */
+header {
+    display: flex;	
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #6A8FA6;
+}
+
+.caixa img {
+    width: 110px;  
+}
+
+.banner {
+    width: 100%;
+}
+
+/* PRINCIPAL */
+.principal {
+    padding-top: 3em;
+}
+
+.titulo-principal, .titulo-sobre {
+    padding-top: 0.6em;
+}
+
 .mulheres-tecnologia {
     width: 300px;
 }
@@ -92,6 +102,7 @@ h3 {
 .texto-principal {
     margin-left: 20px;
 }
+
 .mulheres-tecnologia-secundario {
     display: flex;
     padding-top: 20px;
@@ -100,6 +111,7 @@ h3 {
     font-size: 1.3rem;
 }
 
+/* SOBRE */
 .sobre {
     background: linear-gradient(#FEFEFE, #6A8FA6);
     padding-bottom: 40px;
@@ -121,22 +133,27 @@ h3 {
     height: 420px;
     width: 100%;
 }
+
+/* ATUACAO */
 .atuacao {
     background: #345B73;
     padding: 3em 0;
 }
+
 .conteudo-atuacao {
     width: 640px;
     margin: 0 auto;
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
+
 .lista-atuacao {
     width: 40%;
     display: inline-block;
     vertical-align: top;
     color: white;
 }
+
 .itens {
     line-height: 1.5;
     font-size: 21px;
@@ -160,11 +177,13 @@ h3 {
     box-shadow: 10px 10px 10px 0 #dbffff;
 }
 
+/* SERVICOS */
 #servicos {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
 }
+
 #servicos li {
     display: inline-block;
     text-align: center;
@@ -176,6 +195,7 @@ h3 {
     border: 2px solid #f9f7f7;
     border-radius: 10px; 
 }
+
 #servicos li:hover {
     border: 2px solid #e76739;
 }
@@ -187,26 +207,24 @@ h3 {
     margin: 0px;
     padding: 0px
 }
+
 #servicos p, h3 {
     color: #D8EDF2;
     margin-block-start: 0px;
     margin-block-end: 0px;
 }
+
 .servico-descricao {
     font-size: 18px;
 }
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+
 .servico-preco {
     font-size: 22px;
     font-weight: bold;
     padding-top: 10px;
 }
+
+/* FOOTER */
 footer {
     text-align: center;
     background-color: #A7C6D9;
