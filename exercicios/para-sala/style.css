@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -54,4 +54,40 @@ nav a:hover {
 
 .banner {
     width: 100%;
+}
+
+.principal {
+    padding-top: 3em;
+}
+
+.titulo-principal {
+    padding-top: 0.6em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    margin: 0 0 1em;
+    color: #122126;
+}
+
+.mulheres-tecnologia {
+    width: 300px;
+}
+.mulheres-tecnologia-principal {
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 1.3rem;
+}
+
+.texto-principal {
+    margin-left: 20px;
+}
+.mulheres-tecnologia-secundario {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 1.3rem;
 }
