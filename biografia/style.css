@@ -1,0 +1,103 @@
+header{
+width: 100%;
+margin: 0;
+font-size: 26px;
+}
+
+.navegacao {
+    position: relative;
+	width: 940px;
+	margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    align-items: center;
+    text-decoration: none;
+    padding: 25px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+nav a{
+    text-decoration: none;
+    color: #1d1829;
+    box-shadow: 1px 5px 5px 5px #000000;
+    border-radius: 15px;
+
+}
+
+nav a:hover {
+	color: #628588;
+	text-decoration: underline;
+}
+
+.logo {
+    width: 320px;
+    border-radius: 500px;
+    margin-left: 35px;
+    margin-top: 25px;
+    box-shadow: 1px 5px 15px 5px #000000; 
+}
+
+body {
+    background-color: rgb(142, 143, 240);
+}
+
+ .caixa h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(194, 107, 179);
+    margin-top: 60px;
+    margin-top: -225px;
+    
+}
+
+h1{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+h2 {
+    width: 50%;
+    margin-left: 350px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    
+}
+
+p {
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 450px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 16px;
+}
+
+
+.banner {
+    width: 25%;
+    box-shadow: 1px 5px 15px 5px #000000;
+    margin-top: -150px;
+    margin-left: 35px;
+
+}
+
+.videogame {
+    width: 20%;
+    border-radius: 500px;
+    box-shadow: 1px 5px 15px 5px #000000; 
+    margin-top: -80px;
+    margin-left: 70px;
+}
+
+
+footer {
+	text-align: center;
+}
+
+p footer {
+    font-family: 'Gloria Hallelujah', cursive;
+ 
+}
