@@ -26,13 +26,33 @@ header {
     padding-bottom: 40px;
     padding-left: 400px;
     padding-right: 200px;
-    background-color: #f6fd92; 
+    background-color: #e4e997; 
 }
 header h1 {
     color: #000000;
     font-size: 30px;
     text-shadow: 0.05em 0.05em 0.8em #ffffff
 }
+form {
+    border:1px solid whitesmoke;
+    border-radius: 0.3em;
+    padding: 0.3em;
+}
+form input, form button {
+    font-size: 1em;
+    border-radius: 0.2em;
+    border: none;
+}
+form button {
+    cursor: pointer;
+    background:none;
+    color: whitesmoke;
+}
+form button :hover {
+    background-color: whitesmoke;
+    color:#e4e997 ;
+}
+
 .texto-inicial, .texto-final {
     display: flex;
     padding-left: 150px;
