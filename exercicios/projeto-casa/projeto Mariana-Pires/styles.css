@@ -1,0 +1,486 @@
+
+/* ESTILOS GERAIS */
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    padding: 1000rem;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    background-repeat: repeat;
+    background: url(./img/background.png) center center / cover repeat;
+    max-width: 10px.;
+    background-attachment: fixed;
+}
+
+
+a{
+    text-decoration: none;
+    color: plum;
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
+img {
+
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+
+/* FORMULÁRIO CONTATO  */
+
+.inputs{
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    float:inline-end;
+    border-radius: 30px;
+
+}
+
+.fname{
+border-radius: 25px;
+}
+
+.em{
+    border-radius: 25px;
+}
+
+.email{
+    border-radius: 25px;
+}
+
+.msg-box{
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+/* BOTÕESSS! */
+
+.btn{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+}
+
+.btn-branco{
+    color: rgb(126, 69, 155);
+    background-color: white;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 20px;
+    width: 50rem;
+    padding: 1rem 5rem;
+    margin-left: -80px;
+
+}
+
+.btn-envio{
+    color: rgba(84, 22, 114, 0.786);
+    background-color: white;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 12px;
+    padding: 1rem 1rem;
+}
+
+
+
+/* ESTILOS DO BANNER */
+
+.banner-div{
+    height: 90vh;
+    text-align: center;
+    padding-top: 30rem;
+    color: white;    
+    background: url(./img/mariana\ pires\ freitas\ \(1\).png) center center / cover no-repeat;
+    max-width: 1000px;
+    margin-left: 185px;
+}
+
+.banner-container{
+    max-width: 1080px;
+    margin: 10rem auto 0px;
+}
+
+
+.margin-bottom{
+    margin-bottom: 2rem;
+}
+
+/* ESTILO SEÇÃO MENU */
+
+.btn-menu{
+    color: #2c720c;
+    list-style: none;
+    border: 1px solid #c0c0c0;
+    background-color: white;
+    float: left; 
+    font-family: 'Silkscreen', sans-serif;
+    text-transform: uppercase;
+    top: 65rem;
+    left: 50%;
+    float: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  
+}
+.menu li{
+    position: relative;
+    float: left;
+    border-right:1px solid #c0c0c0;
+}
+
+.menu li a{
+    color: #6c5d81;
+    text-decoration: none;
+    padding: 5px 10px;
+    display:block;
+}
+
+.menu li a:hover{
+    background:#2c720c;
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+}
+    
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+
+.menu li ul li{
+    border:1px solid #c0c0c0;
+    display:block;
+    width:150px;
+}
+
+.carol{
+    color: #93443f;
+}
+
+/* MINIBIO */
+
+minibio{
+    border-radius: 25px;
+}
+
+.img-minibio{
+    float: right;
+    padding: 200px;
+    size: 50rem;
+}
+
+.txt-minibio{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    display: block
+    border: 5px solid white;
+    padding: 2rem  2rem 2rem 2rem;
+    text-align: center;
+    width: 55rem;
+    float: right;
+    margin-right: -190px;
+    margin-top: 50px;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 13px;
+}
+
+/* 
+
+
+.sobre-container{
+    margin: 3rem;
+ }
+
+ .sobre-titulo{
+    padding: 11rem;
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+ }
+
+ .sobre-descricao__div{
+    width: 40%;
+    display: inline-block;
+    line-height: 1.5;
+ }
+
+.sobre-descricao__destaque{
+    font-size: 2rem;
+}
+
+.sobre-descricao__texto{
+    display: inline-block;
+    line-height: 1.5;
+    margin-bottom: 20px;
+} */
+
+
+/* HABILIDADES 
+.sobre-habilidades__div{
+    width: 40%;
+    float: right;
+    line-height: 1.0;
+    margin-left: 15rem;
+}
+
+.sobre-habilidades__titulo{
+    font-size: 2rem;
+    text-decoration: solid;
+}
+
+.sobre-habilidades__lista{
+    padding-left: 2rem;
+    line-height: 2;
+    font-size: 1.6rem;
+}
+
+.link-habilidade{
+   color: #9156BB;
+   text-decoration: underline;
+
+} */
+
+/* SESSÃO TIC TAC TOE */
+
+.img-ttt{
+    max-width: 1000rem;
+    height: 45rem; 
+    float: right;
+    margin-right: 120px;
+}
+
+.img-ttt2{
+    max-width: 1000rem;
+    height: 30rem; 
+    float: left;
+    margin-left: 95px;
+    margin-top: 100px;
+}
+
+.txt-ttt{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    display: block
+    border: 5px solid white;
+    padding: 2rem 5rem 3rem;
+    width: 65rem;
+    float: left;
+    margin-left: 87px;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 13px;
+}
+
+.txt-ttt2{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    display: block
+    border: 5px solid white;
+    padding: 2rem 5rem 3rem;
+    width: 56rem;
+    float: left;
+    margin-left: 90px;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 13px;
+    margin-top: 70px;
+}
+
+/* SESSÃO CHECKERS */
+
+
+.img-checkers{
+    max-width: 1000rem;
+    height: 45rem; 
+    float: right;
+    margin-right: 110px;
+}
+
+.img-checkers2{
+    max-width: 1000rem;
+    height: 25rem; 
+    float: left;
+    margin-left: 110px;
+    margin-top: -110px;
+}
+
+.txt-checkers{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    display: block
+    border: 5px solid white;
+    padding: 2rem 5rem 3rem;
+    width: 50rem;
+    float: none;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 13px;
+    margin-left: 110px;
+}
+
+.txt-checkers2{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    display: block
+    border: 5px solid white;
+    padding: 2rem 5rem 3rem;
+    width: 55rem;
+    float: right;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 13px;
+    margin-right: 110px;
+}
+
+/* SESSÃO RIVER RAID */
+
+
+.img-rr{
+    max-width: 1000rem;
+    height: 45rem; 
+    float: right;
+    margin-right: 100px;
+}
+
+.img-rr2{
+    max-width: 1000rem;
+    height: 30rem; 
+    float: left;
+    margin-top: 160px;
+    margin-left: 100px;
+}
+
+
+.txt-rr{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    display: block
+    border: 5px solid white;
+    padding: 2rem 5rem 3rem;
+    width: 65rem;
+    float: left;
+    margin-left: 87px;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 13px;
+}
+
+
+.txt-rr2{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    display: block
+    border: 5px solid white;
+    padding: 2rem 5rem 3rem;
+    width: 55rem;
+    float: left;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 13px;
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+.txt-rr3{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    display: block
+    border: 5px solid white;
+    padding: 2rem 5rem 3rem;
+    width: 65rem;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 13px;
+    float:right;
+    margin-right: 300px;
+    margin-top: 100px;
+}
+
+/* SESSÃO SOBRE CAROL SHAW */
+
+.img-cs{
+    max-width: 100rem;
+    height: 22rem; 
+    float: right;
+    padding-right: 130px;
+}
+
+.img-cs2{
+    max-width: 1000rem;
+    height: 25rem; 
+    float: left;
+    padding-left: 100px;
+}
+
+.img-cs3{
+    max-width: 1000rem;
+    height: 35rem; 
+    float: right;
+    padding-right:100px;
+    margin-top: -200px;
+}
+
+.txt-cs{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    display: block
+    border: 5px; solid;
+    padding: 2rem 5rem 3rem;
+    width: 65rem;
+    top: -60px;
+    margin-left: 90px;
+    float: left;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 13px;
+
+}
+
+.txt-cs2{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    display: block
+    border: 5px solid white;
+    padding: 2rem 5rem 3rem;
+    width: 65rem;
+    margin-right: 120px;
+    float: right;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 13px;
+}
+
+.txt-cs3{
+    background-color: rgb(60, 91, 160);
+    border-radius: 50px;
+    display: block
+    border: 5px solid white;
+    padding: 2rem 5rem 3rem;
+    width: 65rem;
+    float: left;
+    font-family:'Silkscreen', sans-serif;
+    font-size: 13px;
+    margin-left: 120px;
+    margin-top: -80px;
+}
+
+/* FOOTER */
+
+.footer{
+    padding: 250px 566px 15px;
+    color: white;
+}
