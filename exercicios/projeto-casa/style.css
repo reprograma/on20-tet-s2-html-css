@@ -1,13 +1,48 @@
-
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
-    margin: 100px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     padding:0px;
     box-sizing: border-box;
     font-size: 100%;
     font-family: 'italic', serif;
     font-size: 1.1rem;
-    background-color: linear-gradient(#FEFEFE, #d9e1bc);
+    background: linear-gradient(#fffef5, #faedb3);
+}
+
+.body{
+    margin: 100px;
+    
+}
+
+header {
+    padding:10px;
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+header div{
+    width: 35%;
+    font-size: 2.5rem;
+    font-family: 'Homemade Apple', cursive;
+    display: inline-block;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.menu{
+    width: 60%;
+    display: inline-block;
 }
 
 .titulo{
@@ -15,14 +50,39 @@ body{
     font-size:2.5rem;
 }
 
-.biografia-img{
-    display: block;
-    margin-top: 30px;
-
+.menu li{
+    display: inline;
+    padding-left: 25px;
 }
-.shirley{
+
+.menu a {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.biografia h1{
+    text-align: center;
+}
+
+section .div-img{
+    width: 40%;
+    margin-top: 30px;
+    display: inline-block;
+    position: relative;
+}
+
+section .div-texto{
+    width: 52%;
+    display: inline-block;
+    position: absolute;
+}
+
+section .div-texto p{
     font-size: 1.1rem;
     font-family: 'italic', serif;
+    text-align: justify;
 }
 
 .estudos-texto{
@@ -41,8 +101,6 @@ body{
     font-size: 0rem;
 }
 .carreira{
-    width: 55%;
-    display: inline-block;
     margin-bottom: 30px;
     padding: 18px;
     font-size: 1.1rem;
@@ -75,26 +133,19 @@ body{
     margin: 0 auto;
 }
 
-header {
-    padding:10px;
-    background-image: url("banner.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    font-size: 3.5rem;
-    font-family: 'Homemade Apple', cursive;
-}
-
 .caixa  {
     position: relative;
     width:1200px;
     margin: 0 auto;
 }
 
-nav a{
-    text-transform: uppercase;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    text-decoration: none;
+footer {
+    height: 50px;
+    background-color: rgb(245, 195, 145);
+    margin-top: 100px;    
+    text-align: center;
+}
+
+footer p {
+    padding-top: 20px;
 }
