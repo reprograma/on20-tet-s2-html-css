@@ -1,0 +1,106 @@
+/* ESTILOS GERAIS */
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(#00FF7F,#FF69B4,#D8BFD8);
+    background-color: #FFBBFF;
+   
+}
+
+.btn-branco{
+    color: rgb(126, 69, 155);
+    background-color: white;
+}
+
+.banner-container{
+    max-width: 1500px;
+    margin: 10rem auto 5px;
+    background-color: #EE30A7;
+    text-align: center; 
+    font-size: 1.6rem; 
+      
+}
+
+.banner-titulo{
+    font-size: 8rem;
+    color: white;
+    text-shadow: 1.5px 1.5px white;     
+}
+
+.conteudo{
+    display: table;
+    margin: 2rem opx;
+}
+
+.imagem{
+    display: table-cell;
+    float: left;
+    margin-left: 40px;
+}
+img {
+    max-width:800px;
+    max-height:800px;
+
+}
+
+.texto {
+    display: table-cell;
+    float: left;
+    width: 350px;
+    margin-top: -20px;
+    font-size: 2.0rem;
+    margin-left: 50px;
+    margin: 7rem;
+    vertical-align:auto;
+    text-indent: 3px;
+    
+}
+ 
+
+.depoimento {
+    display: table-cell;
+    float: left;
+    width: 350px;
+    margin-top: -20px;
+    font-size: 2.0rem;
+    margin-left: 10px;
+    margin: 7rem;
+    vertical-align:auto;
+    text-indent: 3px;
+}
+
+.redes-sociais__div{
+    text-align: center;
+    margin: 15rem;
+    margin-bottom: 50px;
+}
+
+.redes-sociais__item{
+    display: inline-block;
+    width: 20%;
+    background-color: #EE30A7;
+    text-align: center;
+    color: white;
+    padding: 5rem 1px;
+    margin: 80px 2rem;
+    border-radius: 150px;
+    margin-top: -100px;
+  
+}
+
+.redes-sociais__img{
+    margin-bottom: 0.5rem;
+}
+
+.Copyrigth {
+    font-size: 20px;
+}
+
