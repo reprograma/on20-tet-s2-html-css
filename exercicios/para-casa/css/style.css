@@ -1,0 +1,190 @@
+/* ESTILOS GERAIS */
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff;
+    color: rgb(8, 0, 0);
+    font-family: 'Cinzel', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Saira', sans-serif
+}
+
+
+p{
+    font-size: 1.6rem;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Saira', sans-serif;
+text-align: center;
+}
+
+h3{
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Dancing Script', cursive;
+font-family: 'Saira', sans-serif;
+text-align: center;
+    
+
+
+}
+
+.btn{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+}
+
+.btn-branco{
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(248, 213, 161);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* ESTILOS DO BANNER */
+
+.banner-div{
+    height: 90vh;
+    text-align: center;
+    padding-top: 20rem;
+    color: white;
+    background: url(../img/banner-bg.png) center center / cover no-repeat;
+}
+
+.banner-container{
+    max-width: 1080px;
+    margin: 10rem auto 0px;
+}
+
+
+.banner-titulo{
+    font-size: 10rem;
+}
+
+.banner-subtitulo{
+    font-size: 2.3rem;
+
+}
+
+.margin-bottom{
+    margin-bottom: 2rem;
+}
+
+/* ESTILO SEÇÃO SOBRE MIM
+ */
+
+ .sobre-container{
+    margin: 5rem;
+ }
+
+ .sobre-titulo{
+    font-size: 5rem;
+    color: rgb(153, 153, 153);
+    text-shadow: 0 0 1px #000000, 0 0 1px #000000;
+    font-family: 'Cinzel', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Saira', sans-serif;
+text-align: center;
+
+
+
+    
+ }
+
+ .sobre-descricao__div{
+    width: 40%;
+    display: inline-block;
+    line-height: 1.5;
+    text-align: center;
+ }
+
+.sobre-descricao__destaque{
+    font-size: 3rem;
+    font-family: 'Cinzel', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Saira', sans-serif;
+background-color: rgb(216, 208, 208);
+text-align: center;
+
+
+}
+
+.sobre-descricao__texto{
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: 'Cinzel', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Saira', sans-serif;
+text-align: center;
+
+
+}
+
+.btn-roxo{
+    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgb(248, 213, 161);
+    background-color: rgb(248, 213, 161)
+}
+
+.sobre-habilidades__div{
+    width: 40%;
+    display: inline-block;
+    line-height: 4;
+    margin-left: 20rem;
+    font-family: 'Cinzel', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Saira', sans-serif;
+}
+
+.sobre-habilidades__titulo{
+    font-size: 3rem;
+    line-height: 6;
+    text-justify: 10px
+}
+
+.sobre-habilidades__lista{
+    padding-left: 2rem;
+    line-height: 2;
+    font-size: 2rem;
+}
+
+/* ESTILO REDES SOCIAIS */
+
+.redes-sociais__div{
+    text-align: center;
+    margin: 3rem;
+    margin-bottom: 80px;
+}
+
+.redes-sociais__item{
+    display: inline-block;
+    background-color: rgb(248, 213, 161);
+    width: 10%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 1rem 0px;
+    margin: 1px 1rem;
+}
+
+.redes-sociais__img{
+    margin-bottom: 0.5rem;
+}
+
