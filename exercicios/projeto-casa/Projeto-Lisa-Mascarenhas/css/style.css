@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #f0f8ff;
+    background-color: #282336;
+    font-family: "Roboto", sans-serif;
+}
+
+.rosto-ada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 0;
+}
+
+header {
+    background-color: #666188;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+}
+
+section {
+    background-color: #666188;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    padding-bottom: 1em;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 0;
+    color: rgb(197, 136, 255);
+
+}
+
+.icon {
+    filter: hue-rotate(60deg);
+}
+
+.imagens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    padding: 0 10em;
+}
+
+nav a {
+    color: rgb(232, 209, 255);
+    padding-right: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: rgb(170, 108, 228);
+}
+
+.separator {
+    background-color: rgb(232, 209, 255);
+    width: 3px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+section p+p {
+    padding-top: 10px;
+}
