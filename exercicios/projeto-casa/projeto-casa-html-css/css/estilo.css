@@ -1,0 +1,79 @@
+.bannerprincipalgrace img {
+    width: 100%;
+}
+
+.botaodepesquisa {
+    color: white;
+    margin:30px 100px 30px 100px;
+}
+
+.btn-grace {
+    background-color: rgb(252, 240, 11);
+    color:black;
+    text-align: center;
+    font: size 1rem;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    font-family: 'Roboto Mono', monospace;
+    margin: 100px;
+    
+}
+
+.botaograce{
+    text-align: center;
+    margin: 100px;
+}
+
+.titulogracehopper {
+    font-family: 'Roboto Mono', monospace;
+    color:black;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(52, 188, 186);
+}
+
+.box {
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(6, 87, 84);
+    width: calc((100% / 2) - 2rem);
+}
+
+.p {
+    display: block;
+    margin: block start 1px;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+main {
+    margin: 16px;
+}
+
+p {
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+}
+
+.rodape p {
+    text-align: center;
+    height:50px;
+    color: white;
+}
