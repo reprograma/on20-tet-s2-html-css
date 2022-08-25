@@ -1,64 +1,66 @@
 body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #7f96a5;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
 }
 
+/* Header */
 header {
-   background-color:#6A8FA6;
-   padding: 20px;
-
+	background: rgb(43, 43, 78) ;
+	padding: 20px 0;
+    
 }
 
 .caixa {
 	position: relative;
-	width: 940px;
+	width: 1200px;
 	margin: 0 auto;
 }
 
-
-.caixa-imagem {
-    width: 80px;
+.caixa img {
+	width: 115px;
+	
 }
 
 nav {
 	position: absolute;
 	top: 50px;
-	right: 0;
+	right: 60px;
     
 }
+
 nav li {
 	display: inline;
-	margin: 0 0 0 15px;
-    text-align: center;
+	margin: 0 0 0 20px;
+   
+	
 }
 
 nav a {
 	text-transform: uppercase;
-	color: #4c4d50;
+	color: #fffcfc;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 18px;
 	text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 nav a:hover {
-	color: #3b3a96;
+	color: #345B73;
 	text-decoration: underline;
 }
 
-/* css da página inicial */
 .banner {
 	width:100%;
 }
 
-.titulo-principal {
+
+/* Main */
+h1  {
+
 	text-align: center;
-	font-size: 2em;
+	font-size: 4em;
 	margin: 0 0 1em;
-	clear: left;
+	color: #122126;
+	padding-top: .6em;
 }
 
 .principal {
@@ -68,36 +70,96 @@ nav a:hover {
 	margin: 0 auto;
 }
 
-.principal p {
+.titulo-secundario {
+	text-align: center;
+	font-size: 3em;
 	margin: 0 0 1em;
+	color: #122126;
+
 }
 
-.women-tech {
-	width: 200px;
+.mulheres-tecnologia {
+	width: 300px;
 	float: left;
 	margin: 0 20px 20px 0;
+	
 }
 
-.imagem-quem-somos {
-    width: 450px;
-    padding: 0 250px 0 250px;
+.principal p {
+	margin: 0 0 1em;
+	font-size: 1.3rem;
+	text-align: justify;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
 }
 
 
-.atuacao {
-	width: 640px;
+/*A propriedade float do CSS determina que um elemento deve ser retirado do seu fluxo normal e colocado ao longo do lado direito ou esquerdo do seu containêr, onde textos e elementos em linha irão se posicionar ao seu redor.*/
+
+.sobre {
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #6A8FA6);
+}
+
+.sobre p {
+	margin: 0 0 2em;
+	text-align: center;
+	font-size: 1.3rem;
+}
+
+.sobre-conteudo {
+	width: 940px;
 	margin: 0 auto;
 }
 
-.lista-atuacao {
+.sobre-conteudo img {
+	width:100%;
+	height:420px;
+	border-radius: 1rem;
+
+}
+
+.atuacao {
+	padding: 3em 0;
+	background: #345B73;
+	
+}
+.atuacao > h2{
+	color: white;
+	padding-top: 20px;
+
+}
+
+.conteudo-atuacao {
+	width: 640px;
+	margin: 0 auto;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+.lista-atuacao{
 	width: 40%;
 	display: inline-block;
 	vertical-align: top;
+	color: white;
 }
-
 
 .itens {
 	line-height: 1.5;
+	font-size: 21px;
+	color: #D8EDF2;
+	top:-30px;
+}
+
+.itens:hover {
+	font-size: 23px;
+	
 }
 
 .itens:first-child {
@@ -106,30 +168,30 @@ nav a:hover {
 
 .itens:before {
 	content: "🟊";
+	color: #e76739;
+	
 }
 
-.atuacao-banner {
-	width: 60%;
+.imagem-atuacao-mundo {
+	width: 50%;
 	opacity: 1;
 	transition: 400ms;
-	box-shadow: 10px 10px 10px 0 #000000;
-    border-radius: 10px;
-    padding: 0;
+	box-shadow: 10px 10px 10px 0 #dbffff;
 }
 
-.atuacao-banner:hover {
+.imagem-atuacao-mundo:hover {
 	opacity: 0.3;
 }
 
-/* css lista serviços */
 
-.servicos {
+#servicos {
 	width: 940px;
 	margin: 0 auto;
 	padding: 50px 0;
+	background: #8ca3b1;
 }
 
-.servicos li {
+#servicos li {
 	display: inline-block;
 	text-align: center;
 	width: 30%;
@@ -137,28 +199,30 @@ nav a:hover {
 	margin: 0 1.5%;
 	padding: 30px 20px;
 	box-sizing: border-box;
-	border: 2px solid #000000;
+	border: 2px solid #f9f7f7;
 	border-radius: 10px;
 }
 
-.servicos li:hover {
-	border-color: #C78C19;
+#servicos p,  h3 {
+   color: #D8EDF2;
 }
 
-.servicos li:active {
-	border-color: #088C19;	
+#servicos li:hover {
+	border-color: #e76739;
 }
 
-.servicos li:hover h3 {
+
+#servicos li:hover h3 {
 	font-size: 34px;
 }
 
-.servicos h3 {
+#servicos h3 {
 	font-size: 30px;
 	font-weight: bold;
+	color: white
 }
 
-.produto-descricao {
+.servico-descricao {
 	font-size: 18px;
 }
 
@@ -168,15 +232,80 @@ nav a:hover {
 	margin-top: 10px;
 }
 
+/* Css Formulario */
+form {
+	margin: 40px 80px;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background-color: #6A8FA6;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: #e76739;
+	transform: scale(1.2);
+}
+
+/* Css tabela */
+
+table {
+	margin: 40px 80px 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+.horario h3 {
+	color: #2c3032;
+	margin: 100px 0 0 80px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+/* Footer */
 
 footer {
 	text-align: center;
-	background: url("bg.jpg");
+	background-color: #A7C6D9;
 	padding: 40px 0;
 }
 
 .copyright {
-	color: #FFFFFF;
-	font-size: 13px;
+	color: #2c3032;
+	font-size: 15px bold;
 	margin: 20px 0 0;
 }
