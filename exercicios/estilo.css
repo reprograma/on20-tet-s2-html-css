@@ -77,9 +77,9 @@ a:active,a:hover {
 }
 
 .introducao {
-    background-color: rgb(239, 233, 216);
+    background-color: rgb(241, 237, 223);
     width: 100%;
-    height: 680px;  
+    height: 730px;  
 }
 
 .primeirotexto {
@@ -97,5 +97,190 @@ h1 {
 .infancia {
     padding: 40px;
     display: flex;
+    justify-content: space-between;
     
+}
+
+.textoinfancia {
+    margin-left: 55px;
+    margin-bottom: 50px;
+}
+
+.h2infancia {
+    padding: 40px;
+    margin-top: 0px;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+}
+
+h1 {
+    font-family: 'Dancing Script';
+    font-size: 50px;
+}
+
+.h2educacao {
+    padding: 40px;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+}
+
+.educacaop {
+    margin-left: 55px;
+    margin-bottom: 50px;
+}
+
+.final {
+    background-color: #A07577;
+}
+
+.finalh2 {
+    font-family: 'Dancing Script';
+    padding: 40px;
+    font-size: 50px;
+    color: white;
+}
+
+.conteudofinal {
+    color: white;
+    display: flex;
+    padding: 40px;
+}
+
+.finalparagrafo {
+    margin-left: 55px;
+    margin-bottom: 50px;
+}
+
+.formulario {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px;
+  background-color: rgb(123, 193, 144);
+}
+
+.container{
+    max-width: 800px;
+    background: rgb(174, 120, 120);
+    width: 800px;
+    padding: 25px 40px 10px 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  .container .text{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Work Sans';
+    background: #714845;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .container form{
+    padding: 30px 0 0 0;
+  }
+  .container form .form-row{
+    display: flex;
+    margin: 32px 0;
+  }
+  form .form-row .input-data{
+    width: 100%;
+    height: 40px;
+    margin: 0 20px;
+    position: relative;
+  }
+  form .form-row .textarea{
+    height: 70px;
+  }
+  .input-data input,
+  .textarea textarea{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid rgba(0,0,0, 0.12);
+
+  }
+  
+  .textarea textarea{
+    resize: none;
+    padding-top: 10px;
+  }
+  .input-data label{
+    position: absolute;
+    pointer-events: none;
+    bottom: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  .
+  }
+  .input-data .underline{
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+  }
+  .input-data .underline:before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: #3498db;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+  }
+  .input-data input:focus ~ .underline:before,
+  .input-data input:valid ~ .underline:before,
+  .textarea textarea:focus ~ .underline:before,
+  .textarea textarea:valid ~ .underline:before{
+    transform: scale(1);
+  }
+  .submit-btn .input-data{
+    overflow: hidden;
+    height: 45px!important;
+    width: 25%!important;
+  }
+  .submit-btn .input-data .inner{
+    height: 100%;
+    width: 300%;
+    position: absolute;
+    left: -100%;
+    background-color: #714845;
+    transition: all 0.4s;
+  }
+  .submit-btn .input-data:hover .inner{
+    left: 0;
+  }
+  .submit-btn .input-data input{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+  }
+  @media (max-width: 700px) {
+    .container .text{
+      font-size: 30px;
+    }
+    .container form{
+      padding: 10px 0 0 0;
+    }
+    .container form .form-row{
+      display: block;
+    }
+    form .form-row .input-data{
+      margin: 35px 0!important;
+    }
+    .submit-btn .input-data{
+      width: 40%!important;
+    }
 }
