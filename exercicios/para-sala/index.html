@@ -6,10 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto On20</title>
-    <link rel="stylesheet" href="./style.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -18,15 +21,20 @@
       <!--cabeçalho da página-->
 
       <div class="caixa">
-        <img class="caixa-imagem" src="./img/logo.png" alt="logo mulheres em tecnologia"/>
+        <img
+          class="caixa-imagem"
+          src="./img/logo.png"
+          alt="logo mulheres em tecnologia"
+        />
       </div>
       <!--nav de navegação é uma tag semântica-->
       <nav>
         <!-- lista não ordenada-->
         <ul>
-          <li>Home</li>
-          <li>Quem somos</li>
-          <li>Contato</li>
+          <li><a href="index.html" target="_blank">Home</a></li>
+          <li><a href="#Serviços" target="_blank"> Quem somos</a></li>
+          <li><a href="./contato.html" target="_blank">Contato</a></li>
+          <li><a href="#" target="_blank">Novidades</a></li>
         </ul>
       </nav>
     </header>
@@ -34,9 +42,9 @@
     <img src="./img/banner (2).jpg" alt="Banner do Projeto" />
 
     <main>
-      <section>
-        <h1>Mulheres e Tecnologia</h1>
-        <img src="./img/women-tech.jpg" alt="Mulher tecnológia" />
+      <section class="principal">
+        <h1 class="titulo_principal">Mulheres e Tecnologia</h1>
+        <img class="mulheres-tecnologia" src="./img/women-tech.jpg" alt="Mulher tecnológia" />
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
           voluptate animi sint dicta laudantium laboriosam recusandae quis minus
@@ -50,53 +58,65 @@
         </p>
       </section>
 
-      <section>
-        <h2>Quem Somos nós</h2>
+      <section class="sobre">
+        <h2 Class="titulo_secundario">Quem Somos nós</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-        <div>
-            <img src="./img/women in tech -.jpg" alt="Imagem de mulher negra digitando"/>
+        <div class="sobre_atuacao">
+          <img
+            src="./img/women in tech -.jpg"
+            alt="Imagem de mulher negra digitando"
+          />
         </div>
       </section>
 
-      <section>
-        <h2>Atuação no mundo</h2>
-        <ul>
-            <li>Criam</li>
-            <li>Inventam</li>
-            <li>Inovam</li>
-            <li>Mudam</li>
-            <li>Melhoram</li>
-            <li>Potencializam</li>
+      <section class="atuacao">
+        <h2 class="titulo_secundario">Atuação no mundo</h2>
+        <div class="conteudo-atuacao">
+        <ul class="lista-atuacao">
+          <li>Criam</li>
+          <li>Inventam</li>
+          <li>Inovam</li>
+          <li>Mudam</li>
+          <li>Melhoram</li>
+          <li>Potencializam</li>
         </ul>
-        <img src="./img/business-women.jpg" alt="Mulheres interagindo no ambiente de trabalho">
+        <img
+          src="./img/business-women.jpg"
+          alt="Mulheres interagindo no ambiente de trabalho"/>
+      </div>
+        
       </section>
 
-      <ul>
+      <ul id="servicos">
         <li>
-            <h3>Front-End</h3>
-            <img src="./img/icons8-front-end.png" alt="Ícone Front-End">
-            <p>Tenha a melhor página para o seu negócio</p>
-            <p>Consulte Valores</p>
+          <h3>Front-End</h3>
+          <img src="./img/icons8-front-end.png" alt="Ícone Front-End" />
+          <p>Tenha a melhor página para o seu negócio</p>
+          <p>Consulte Valores</p>
         </li>
         <li>
-            <h3>Back-End</h3>
-            <img src="./img/icons8-backend.png" alt="Ícone Back-End">
-            <p>Aplicações e banco de Dados</p>
-            <p>Consulte Valores</p>
+          <h3>Back-End</h3>
+          <img src="./img/icons8-backend.png" alt="Ícone Back-End" />
+          <p>Aplicações e banco de Dados</p>
+          <p>Consulte Valores</p>
         </li>
         <li>
-            <h3>Aulas</h3>
-            <img src="./img/icons8-classroom.png" alt="Ícone Sala de Aula">
-            <p>Oferecemos Aulas</p>
-            <p>Consulte Valores</p>
+          <h3>Aulas</h3>
+          <img src="./img/icons8-classroom.png" alt="Ícone Sala de Aula" />
+          <p>Oferecemos Aulas</p>
+          <p>Consulte Valores</p>
         </li>
       </ul>
     </main>
     <footer>
-        <img src="./img/icons8-linkedin-circled-64.png" alt="ícone linkedin">
-        <img src="./img/icons8-github-64.png" alt="Ícone Github">
-        <p>&copy Copyrigth Vitória Bessa - Todas em tech - Reprograma 2022</p>
+      <a href="https://www.linkedin.com/in/vitoriabessa/" target="_blank">
+        <img src="./img/icons8-linkedin-circled-64.png" alt="ícone linkedin" />
+      </a>
+      <a href="https://github.com/vitoriabessa" target="_blank">
+        <img src="./img/icons8-github-64.png" alt="Ícone Github" />
+      </a>
+      <p>&copy Copyrigth Vitória Bessa - Todas em tech - Reprograma 2022</p>
     </footer>
   </body>
 </html>
