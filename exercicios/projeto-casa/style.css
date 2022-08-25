@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2? family= Lato:wght@400;700 & família = Merriweather &family= Noto+Sans:ital,wght@0,700;1,400 & family= Open+Sans:ital@1 & family= Outfit:wght@300 & family= Oxanium:wght@200;500 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner{
+    background: linear-gradient(rgba(12, 1, 22, 0.571),rgba(56, 1, 64, 0.455)),url(./img/1_HeeJqRPqQ-_gq9qySMol6w.jpeg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo{
+    color: rgb(253, 244, 244);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+
+.texto .botoes{
+    margin-top: 30px;
+}
+
+.texto .botoes button{
+   height: 55px;
+   width:170px;
+   border-radius: 5px;
+   border: 0;
+   margin: 0 10px;
+   font-size: 20px;
+   font-weight: 500;
+   padding: 0 10px;
+   cursor: pointer;
+   outline: none;
+   transition: 0.3s;
+}
+
+.btn{
+    color:white ;
+    background: none;
+    border: 2px solid white;
+}
+
+.btn:hover{
+    color:rgb(0, 0, 0) ;
+    background-color: white;
+    
+}
+
+.container{
+    margin: 5rem;
+    display: table;
+ }
+
+ .img{
+    display: table-cell;
+    float: left;
+ }
+
+ .sobre-descricao_div{
+    width: 90%;
+ }
+
+.sobre-descricao_destaque{
+    font-size: 1.5rem;
+    padding: 2rem 0px;
+    margin: 0px 1rem;
+    text-align: justify;
+    
+}
+
+.sobre-descricao_texto{
+    display: table-cell;
+    float: left;
+    width: 90%;
+    margin-top: -20px ;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-bottom: 20px;
+    padding: 2rem 0px;
+    margin: 0px 1rem;
+}
+
+
+
