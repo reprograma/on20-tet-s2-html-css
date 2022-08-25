@@ -1,0 +1,100 @@
+
+
+body{
+    margin: 100px;
+    padding:0px;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'italic', serif;
+    font-size: 1.1rem;
+    background-color: linear-gradient(#FEFEFE, #d9e1bc);
+}
+
+.titulo{
+    text-align: center;
+    font-size:2.5rem;
+}
+
+.biografia-img{
+    display: block;
+    margin-top: 30px;
+
+}
+.shirley{
+    font-size: 1.1rem;
+    font-family: 'italic', serif;
+}
+
+.estudos-texto{
+    width: 55%;
+    display :inline-block;font-size: 1.1rem;
+    font-family: 'italic', serif;
+}
+
+.estudos-img {
+    width: 40%;
+    display: inline-block;
+}
+.carreira-img{
+    width: 40%;
+    font-family: 'arial', serif;
+    font-size: 0rem;
+}
+.carreira{
+    width: 55%;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 18px;
+    font-size: 1.1rem;
+    font-family: 'italic', serif;
+}
+.premios-img{
+    width: 40%;
+    display: inline-flex;
+}
+.premios-texto{
+    width: 55%;
+    display: inline-block;
+    font-size: 1.1rem;
+    font-family: 'italic', serif;
+}
+.nav{
+    width: 100%;
+}
+
+.caixa {
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+}
+/* Header */
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+header {
+    padding:10px;
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    font-size: 3.5rem;
+    font-family: 'Homemade Apple', cursive;
+}
+
+.caixa  {
+    position: relative;
+    width:1200px;
+    margin: 0 auto;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
