@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <main>
+        <form class="formulario">
+            <label for="nomeesobrenome">Nome e Sobrenome</label>
+            <input type="text" id="nomeesobrenome" class="input-padrao" required> </input>
+
+            <label for="email">E-mail</label>
+            <input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio.com"> </input>
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX)-XXXXXXXXX"> </input>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea  cols="70" rows="10" class="input-padrao" required placeholder="Escreva sua mensagem aqui"></textarea>
+    
+            <fieldset>
+                <legend>Como prefere nosso contato?</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail </label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone </label>
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp </label>
+            </fieldset>
+
+            <fieldset>Qual horário prefere ser atendido?
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde </option>
+                    <option>Noite</option> 
+                </select>
+            </fieldset>
+        <label class="checkbox"> 
+            <input type="checkbox"> Gostaria de receber nossas novidades por e-mail? </input>
+            <input type="submit" value="Enviar Formulário" class="enviar"> </input>
+            
+
+        </label>
+
+        </form>
+    </main>
+
+    <footer>
+        <a href="linkedin.com"><img src="./img/s2 - Fundamentos HTML e CSS/Cópia de icons8-linkedin-circled-64.png" alt="ícone linkedin">
+        </a> 
+        <a href="github.hub">
+        <img src="./img/s2 - Fundamentos HTML e CSS/Cópia de icons8-github-64.png" alt="ícone github">
+        </a>
+
+        <p class="copyright"> &copy; Anne Caroline - Todas em Tech - Reprograma 2022</p>
+    </footer>
+</body>
+</html>
