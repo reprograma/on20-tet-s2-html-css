@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+body {
+    margin:0;
+    padding: 0;
+    border: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+header {
+    padding:3vh;
+    height: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3vh;
+
+}
+#logo {
+    font-family: 'Gabriela', serif;
+    font-size: xx-large;
+    background-color: #D74C66;
+    padding: 2vh 15vh ;
+    margin: -10vh;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*FORMACAÇÃO DO MENU*/
+nav#menu{
+    display: block;
+    
+    }
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;	
+    position: absolute;
+    top: -20px;
+    left: 130vh;
+    }
+nav#menu li {
+    display: inline-block;
+    background-color: #D74C66;
+    padding: 2vh;
+    margin: 0vh;
+    transition: 2s;
+    border-radius: 18px;
+    }
+nav#menu li:hover {
+    background-color: #F7E0D4;
+    }
+nav#menu a {
+    color: #4D3453;
+    text-decoration: none;
+    font-weight: bold;
+    }
+nav#menu a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+    }		
+
+/* */
+.banner {
+    background-image: url(./img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: xx-large;
+}
+.bannertext {
+    align-items: center;
+    padding: 0vh 20vh 0vh 85vh;   
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #D74C66;
+    text-align: center;
+}
+h1 {
+    font-family: 'Gabriela', serif;
+    font-size: 16vh;
+}
+
+.formacao {
+    display: flex;
+} 
+
+
+.text {
+    display: block;
+    border: dotted #D74C66;
+    padding: 3vh;
+    margin: 5vh 5vh 5vh 5vh;
+    font-size: 3.5vh;
+    text-align: center; 
+    color: c;
+}
+.textp {
+    padding: 3vh;
+    margin: 5vh 5vh 5vh 5vh;
+    font-size: 3.5vh;
+    text-align: center; 
+    color: #4D3453;
+}
+
+
+.formatext{
+    font-size: xx-large;
+}
+.carreira {
+    display: flex;
+    height: 86vh;
+    } 
+
+.ler{
+    border: #4D3453;
+    display: inline-block;
+    background-color: #D74C66;
+    padding: 2vh;
+    margin: 0vh;
+    transition: 2s;
+    border-radius: 18px;
+    color: #4D3453;
+    text-decoration: none;
+}
+
+.textc, h2 {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    }
+
+.patentes{
+    background-image: url(./img/MarianCroakpalestra1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+    }
+
+
+.img{
+    padding: 5vh;
+}
+
+h2 {
+    font-family: 'Gabriela', serif;
+    font-size: 7vh;
+    color: #D74C66;
+}
+.vpessoal{
+   display: flex; 
+   margin: 5vh;
+}
+.pessoal {
+    padding: 1vh;
+    height: 40vh;
+    width: 160vh;
+    
+  }
+/*  */
+  .sobre {
+    padding: 3vh;
+   
+}
+.descricao{ 
+    width: 70vh; 
+    vertical-align: top;
+    padding-left: 20vh;
+    }
+.habilidades {
+   width: 80vh;
+   
+   }
+.descricao, .habilidades {
+    display: inline-block;
+    margin: 0vh;
+    text-align: justify;}
+
+footer{
+    text-align: center;
+}
+
