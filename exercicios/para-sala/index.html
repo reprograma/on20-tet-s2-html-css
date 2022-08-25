@@ -18,9 +18,11 @@
         </div>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Quem Somos</li>
-                <li>Contato</li>
+                    <li><a href="index.html">Home</a></li>
+					<li><a href="#servicos">Serviços</a></li>
+					<li><a href="./contato.html">Contato</a></li>
+                    <li><a href="./novidades.html">Novidades</a></li>
+                    
             </ul>
         </nav>
     </header>
@@ -28,38 +30,40 @@
     <img src="./img/banner (2).jpg" alt="Banner do Projeto">
 
     <main>
-        <section>
-            <h1>Mulheres e Tecnologia</h1>
-            <img src="./img/women-tech.jpg" alt="Mulher de mulher negra">
+        <section class="principal">
+            <h1 class="titulo__principal">Mulheres e Tecnologia</h1>
+            <img class="mulheres-tecnologia" src="./img/women-tech.jpg" alt="Mulher de mulher negra">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti explicabo voluptate perspiciatis autem ex corrupti, nostrum quidem tempora blanditiis vitae veniam dolorem aliquid, aliquam dolores sed exercitationem assumenda quas praesentium.</p>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor nostrum, tempore pariatur illo consequuntur cum a aspernatur debitis sequi repudiandae?</p>
         </section>
 
-        <section>
-            <h2>Quem somos nós</h2>
+        <section class="sobre">
+            <h2 class="titulo__secundario">Quem somos nós</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <div>
-                <img src="./img/women in tech -.jpg" alt="Imagem de mulher negra digitando">
+            <div class="soobre-atuacao">
+                <img class="" src="./img/women in tech -.jpg" alt="Imagem de mulher negra digitando">
             </div>
         </section>
 
-        <section>
-            <h2>Atuação no Mundo</h2>
-            <ul>
-               <li>Criam</li>
-               <li>Inventam</li>
-               <li>Inovam</li>
-               <li>Mudam</li>
-               <li>Melhoram</li>
-               <li>Potencializam</li>
-            </ul>
-            <img src="./img/business-women.jpg" alt="Imagem mulheres de negócio"> 
+        <section class="atuacao">
+            <h2 class="titulo__secundario">Atuação no Mundo</h2>
+            <div class="conteudo-atuacao">
+                <ul class="lista-atuacao">
+                    <li>Criam</li>
+                    <li>Inventam</li>
+                    <li>Inovam</li>
+                    <li>Mudam</li>
+                    <li>Melhoram</li>
+                    <li>Potencializam</li>
+                 </ul>
+                 <img src="./img/business-women.jpg" alt="Imagem mulheres de negócio"> 
+            </div>    
         </section>
 
         <!-- Criar uma nova seção -->
 
-        <!-- <ul>
+        <ul id="servicos">
             <li>
                 <h3>Front-end</h3>
                 <img src="./img/icons8-front-end.png" alt="Icone Front-end">
@@ -73,19 +77,23 @@
                 <p>Consulte valores</p>
             </li>
             <li>
-                <h3>Front-end</h3>
+                <h3>Aulas/h3>
                 <img src="./img/icons8-classroom.png" alt="Icone Classroom">
-                <p>Oferecemos formações</p>
+                <p>Formações em front e back-end</p>
                 <p>Consulte valores</p>
             </li>
-        </ul> -->
+        </ul> 
 
         <!-- Incluir formulário -->
        
     </main>
     <footer>
-        <img src="./img/icons8-linkedin-circled-64.png" alt="Icone Linkedin">        
-        <img src="./img/icons8-github-64.png" alt="Icone Github">
+        <a href="https://www.linkedin.com/in/jaqueline-de-almeida/" target="_blank">
+            <img src="./img/icons8-linkedin-circled-64.png" alt="Icone Linkedin">
+        </a>        
+        <a href="https://github.com/jaquelinedealmeida" target="_blank">
+            <img src="./img/icons8-github-64.png" alt="Icone Github">
+        </a>
 
         <p>&copy; Copyrigth Jaqueline de Almeida - Todas em Tech - reprograma - 2022</p>
     </footer>
