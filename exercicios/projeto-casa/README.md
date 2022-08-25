@@ -9,8 +9,8 @@ Pense na estrutura que você quer criar, faça um rabiscoframe no papel, revise 
 
 Terminou o projetinho? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
 
-- [ ] Fiz o fork do repositório.
-- [ ] Clonei o fork na minha máquina (`git clone url-do-meu-fork`).
+- [X] Fiz o fork do repositório.
+- [X] Clonei o fork na minha máquina (`git clone url-do-meu-fork`).
 - [ ] Dentro da pasta "projeto-casa" criei uma pasta "projeto-meu-nome".
 - [ ] Resolvi o exercício proposto no projeto dentro da minha pasta "projeto-meu-nome".
 - [ ] Adicionei as mudanças. (`git add .` para adicionar todos os arquivos, ou `git add nome_do_arquivo` para adicionar um arquivo específico)
