@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;    
+    gap: 25px;
+    margin-right: 80px;
+    
+}
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: end;   
+    align-items: center;     
+    position: fixed;
+    background-color: rgb(33, 50, 58);
+}
+nav a {
+    color: aliceblue;
+    font-size: 1.3em;
+    text-decoration: none;
+    font-weight: bold;  
+}
+header {
+    background-image: url(../img/conheca-nina-silva-1200x628-1.jpg);
+    width: 100%;
+    height: 600px;
+}
+main {
+    width: 80%;
+    margin: auto;
+    background-color: beige;    
+}
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+p {
+    text-align: center;
+   
+    font-size: 1.1em;
+}
+.section-historia, .section-carreira, .section-black-money {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;    
+}
+.section-historia img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+.section-carreira img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+ .section-black-money h2 {
+        text-align: center;
+        /* margin-bottom: 20px; */
+
+}
+.section-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    background-color: aquamarine;
+}
+.redes-sociais {
+    flex-basis: 50%;
+    margin-left: 100px;
+}
+.form {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+   
+       
+}
+label{
+    display: flex;
+    width: 90px;
+    text-align: right;
+    font-weight: bold;
+
+}
+input {    
+    width: 250px;
+    height: 30px;
+    padding-left:5px;
+    border-radius: 5px;
+    border: 1px solid;
+    outline: none;
+}
+textarea {
+    width: 250px;
+    height: 90px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    outline: none;
+}
+button{
+    background-color:black;
+    color: aliceblue;
+    margin: 20px;
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;  
+    border: 1px solid black;
+    outline: none; 
+    cursor: pointer;
+}
+
+
+
+footer {
+    width: 100%;
+    background-color: rgb(33, 50, 58);
+    color: aliceblue;
+    padding: 10px;   
+}
