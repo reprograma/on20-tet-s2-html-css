@@ -13,6 +13,7 @@ h2 {
 
 .titulo {
   color: #99ffff;
+  text-align: center;
 }
 
 
@@ -32,7 +33,7 @@ h1 {
 }
 
 h3 {
-  text-align: center;
+  color: white;
   font-size: 22px;
 }
 
@@ -46,6 +47,10 @@ p {
   border-radius: 20px;
 }
 
+figcaption {
+  font-size: 12px;
+}
+
 ul {
   list-style-type: none;
   line-height: 2;
@@ -56,6 +61,15 @@ a {
   text-decoration: none;
   color: #99ffff;
   font-weight: 700;
+}
+
+.referencias {
+  color: #99ffff;
+}
+
+.referencias a {
+  color: #fff;
+  font-size: 15px;
 }
 
 .principal {
@@ -75,14 +89,7 @@ a {
 .principal li {
   display: inline-block;
   line-height: 2.5;
-  margin: 0 89px;
-}
-
-button {
-  background: #41f341;
-  border: 1px solid transparent;
-  padding: 2px 20px;
-  border-radius: 3px;
+  margin: 0 20px;
 }
 
 
@@ -106,7 +113,7 @@ footer {
   background-color: #8a71c9;
   height: 60px;
   color: rgb(255, 255, 255);
-  font-size: 16px;
+  font-size: 20px;
   font-family: Open Sans, sans-serif;
 }
 
@@ -116,8 +123,6 @@ footer {
   line-height: 100px;
   /* Mesma altura do rodapé */
   text-align: center;
-
-
 }
 
 .icones-sociais li {
@@ -153,5 +158,4 @@ footer {
 .divas__titulo {
   margin-bottom: .5rem;
   width: 100%;
-
 }
