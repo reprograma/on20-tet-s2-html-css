@@ -38,11 +38,11 @@ header div{
 }
 
 ol, ul {
-    list-style: none;
+    list-style: circle;
 }
 section img{
-    width: 500px;
-    height: 350px;
+    width: 492px;
+    height: 333px;
 }
 
 .menu{
@@ -76,8 +76,6 @@ section img{
 section .div-img{
     width: 45%;
     margin-top: 30px;
-    display: inline-block;
-    position: relative;
     margin: 0;
 
 }
@@ -88,8 +86,7 @@ section .div-img{
 
 section .div-texto{
     width: 50%;
-    display: inline-block;
-    position: absolute;
+   
 }
 
 section .div-texto p{
@@ -104,28 +101,45 @@ section .div-texto p{
     font-size: 1.1rem;
     font-family: 'italic', serif;
 }
+.texto{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
 
 .estudos-img {
     width: 40%;
     display: inline-block;
 }
 
+.texto-biografia{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+}
 
 .carreira-img{
     width: 40%;
-    font-family: 'arial', serif;
-    font-size: 0rem;
 }
-.carreira{
-    margin-bottom: 30px;
-    font-size: 1.1rem;
+.carreira-texto {
+    width: 45%;
+    font-size: 2.0rem;
     font-family: 'italic', serif;
+   
+    
 }
+.texto{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
 .premios-img{
     width: 40%;
     display: inline-flex;
-    width: 410px;
-    height: 350px;
+    width: 492px;
+    height: 333px;
+    gap: 2px;
 }
 .premios-texto{
     width: 55%;
@@ -133,28 +147,11 @@ section .div-texto p{
     font-size: 1.1rem;
     font-family: 'italic', serif;
 }
+
 .nav{
     width: 100%;
 }
 
-.caixa {
-	position: relative;
-	width: 1200px;
-	margin: 0 auto;
-}
-/* Header */
-
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
-
-.caixa  {
-    position: relative;
-    width: 1200px;
-    margin: 0 auto;
-}
 .premios-texto ul li{
     padding-top: 5px;
     padding-bottom: 5px;
@@ -170,24 +167,55 @@ footer {
 
 footer p {
     padding-top: 20px;
-
 }
 
-@media screen and (min-width: 320px) {
-    .div-img img {
-        width: 200px;
-     }
-    
-}
 
-@media screen and (min-width: 1000px) {
-  .div-img img{
-    width: 100%;
- }
- .div-texto p{
+@media screen and (max-width: 480px){
+  .div-texto{
     font-size: 1.1rem;
-
+  }
+  section .div-texto{
+    width: 100%;
+  }
+  .div-img img{
+    width: 200px;
+    height: 150px;
  }
+ .menu li{
+    display: none;
+    padding-left: 25px;
+}
+    footer{
+    background-color: rgb(218, 47, 161);
+ }
+}
+
+@media screen and (max-width:600px){
+    footer{
+    background-color: rgb(78, 27, 197);
+  }
+  section .div-texto{
+    width: 100%;
+  }
+  .div-img img{
+    width: 340px;
+    height: 220px;
+ }
+  
+
+ .texto {
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+@media screen and (min-width: 600px) and (max-width: 1300px){
+    section .div-texto{
+        width: 100%;
+    }
+    footer{
+        background-color: brown;
+    }
+    
 }
 
 
