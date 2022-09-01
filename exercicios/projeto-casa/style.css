@@ -79,7 +79,12 @@ section .div-img{
     display: inline-block;
     position: relative;
     margin: 0;
+
 }
+ .div-img img{
+    width: 492px;
+    height: 333px;
+ }
 
 section .div-texto{
     width: 50%;
@@ -104,6 +109,8 @@ section .div-texto p{
     width: 40%;
     display: inline-block;
 }
+
+
 .carreira-img{
     width: 40%;
     font-family: 'arial', serif;
@@ -117,6 +124,8 @@ section .div-texto p{
 .premios-img{
     width: 40%;
     display: inline-flex;
+    width: 410px;
+    height: 350px;
 }
 .premios-texto{
     width: 55%;
@@ -161,10 +170,26 @@ footer {
 
 footer p {
     padding-top: 20px;
+
 }
 
- 
-@media print and (max-width: 600px){
+@media screen and (min-width: 320px) {
+    .div-img img {
+        width: 200px;
+     }
+    
+}
+
+@media screen and (min-width: 1000px) {
+  .div-img img{
+    width: 100%;
+ }
+ .div-texto p{
+    font-size: 1.1rem;
+
+ }
+}
+
+
     
 
-}
