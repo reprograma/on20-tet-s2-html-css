@@ -1,0 +1,31 @@
+header{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Exo 2', sans-serif;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Exo 2', sans-serif;
+}
