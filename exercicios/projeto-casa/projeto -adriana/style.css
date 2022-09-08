@@ -1,4 +1,4 @@
-body {
+ody {
     margin:0;
     padding: 0;
     border: 0;
@@ -8,7 +8,7 @@ body {
 
 /* Header */
 header {
-	background: #6A8FA6;
+	background: #0593eb;
 	padding: 20px 0;
 	
 }
@@ -40,7 +40,7 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #010507;
+	color: #fffcfc;
 	font-weight: bold;
 	font-size: 18px;
 	text-decoration: none;
@@ -103,7 +103,7 @@ h1 {
 /* Section sobre */
 .sobre {
 	padding: 3em 0;
-	background:(#070606, #6a73a6);
+	background:(#FEFEFE, #6A8FA6);
 }
 
 .titulo__secundario {
@@ -330,7 +330,7 @@ tfoot {
 
 footer {
 	text-align: center;
-	background-color: #A7C6D9;
+	background-color: #0593eb;
 	padding: 40px 0;
 }
 
@@ -339,5 +339,3 @@ footer {
 	font-size: 15px bold;
 	margin: 20px 0 0;
 }
-
-
