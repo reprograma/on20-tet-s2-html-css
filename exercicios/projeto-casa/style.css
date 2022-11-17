@@ -1,0 +1,77 @@
+
+body {
+    background-color: rgba(141, 86, 86, 0.568);
+    display: flexbox;
+}
+
+
+
+h1{
+justify-items: center;
+padding: 2rem;
+color: aliceblue;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: rgb(194, 160, 224);
+border-top-left-radius: 2rem;
+border-top-right-radius: 2rem;
+}
+
+h2 {
+    font-size: 20px;
+    height: 2%;
+    margin: 1%;
+    
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(53, 38, 38);
+    
+}
+
+p {
+    text-align: justify;
+    margin: 0.50rem 2rem;
+    width: 40rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(34, 23, 23);
+    background-color: rgba(245, 245, 220, 0.089);
+    border-radius: 2%;
+    padding: 1%;
+    margin-top: 0;
+   
+} 
+
+
+#card {
+    background-color: rgba(192, 53, 11, 0.897);
+    height: 35rem; 
+    width: 70rem; 
+    margin: 3% auto;
+    justify-content: center;
+   border-radius: 2rem;
+   padding-bottom: 40px;
+   
+   
+   
+
+}
+
+p, #imagem {
+    display: inline-block;
+    position: relative;
+ 
+   
+}
+
+
+
+#imagem {
+    top: 10px;
+    height: 60%;
+    margin-left: 5%;
+     border-radius: 5%;
+   
+    
+    
+ 
+}
+
